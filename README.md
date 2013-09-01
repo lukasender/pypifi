@@ -1,4 +1,4 @@
-PyPipesAndFilters
+pypifi
 =================
 
 Pipes and Filters implemented in Python
