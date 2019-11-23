@@ -31,6 +31,5 @@ setup(
   platforms        = 'any',
   zip_safe         = False,
   classifiers      = CLASSIFIERS.splitlines(),
-  package_dir      = {'':'pypifi'},
-  packages         = find_packages('pypifi')
+  packages         = find_packages('.')
 )

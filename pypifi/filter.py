@@ -7,7 +7,7 @@ class Filter(object):
     """
 
     def __init__(self):
-        print "Filter created."
+        print("Filter created.")
 
     def process(self, message):
-        print "Filter.process()"
+        print("Filter.process()")

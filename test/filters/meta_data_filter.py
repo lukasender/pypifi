@@ -9,5 +9,5 @@ class MetaDataFilter(Filter):
             message should be type of MetaDataMessage.
         """
         super(MetaDataFilter, self).process(message)
-        print message.author
-        print message.message
+        print(message.author)
+        print(message.message)

@@ -12,18 +12,18 @@ from messages.meta_data_message import MetaDataMessage
 from messages.user_data_message import UserDataMessage
 
 def test1():
-    print '--- starting test1:'
+    print('--- starting test1:')
     pipe = Pipeline()
     pipe.connect(MetaDataFilter())
     pipe.execute(MetaDataMessage('lumannnn', 'a simple test message'))
-    print '--- finished test1'
+    print('--- finished test1')
 
 def test2():
-    print '--- starting test2:'
+    print('--- starting test2:')
     pipe = Pipeline()
     pipe.connect(UserDataFilter()).connect(AuthorizationDataFilter())
     pipe.execute(UserDataMessage('lumannnn', 'awesomely secure password'))
-    print '--- finished test2'
+    print('--- finished test2')
 
 test1()
 test2()
