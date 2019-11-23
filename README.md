@@ -1,7 +1,7 @@
 pypifi
 =================
 
-# Pipes and Filters implemented in Python
+## Pipes and Filters implemented in Python
 
 This is a very basic implementation of the Pipes and Filters pattern.
 It is inspired by two articles called 'Messaging as a programming model' (Part 1 and 2) written by Steve Bate (Twitter: [@Steve_Bate](https://twitter.com/Steve_Bate)).
@@ -16,3 +16,13 @@ I'd be happy to talk about improvements :)
 
 Also, for the future it would be really nice to introduced some `unittests` and a logging system. I don't know when I'm going to introduce such things.
 
+## Usage
+Clone this repo
+
+Install pypifi with
+
+`pip install .`
+
+Run the test script with
+
+`python test/test.py`
