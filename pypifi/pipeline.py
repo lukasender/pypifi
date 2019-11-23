@@ -3,7 +3,7 @@
 class Pipeline(object):
     def __init__(self):
         self.filters = []
-        print "Pipline created."
+        print("Pipline created.")
 
     def connect(self, filter):
         self.filters.append(filter)

@@ -9,11 +9,11 @@ class UserDataFilter(Filter):
             type(message) should be type of UserDataMessage
         """
         if message.username is None:
-            print "error: no username provided"
+            print("error: no username provided")
         else:
-            print "success: username provided"
+            print("success: username provided")
 
         if message.password is None:
-            print "error: no password provided"
+            print("error: no password provided")
         else:
-            print "success: password provided"
+            print("success: password provided")
