@@ -9,7 +9,7 @@ class AuthorizationDataFilter(Filter):
     def process(self, message):
         print("username: " + message.username)
         print("password: " + message.password)
-        message.password = self.__encrypt(message.password)
+        message.password = self.__encrypt(message.password.encode('utf-8'))
         print("password (sha1): " + message.password)
 
     def __encrypt(self, token):
